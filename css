@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    animation: colour 15s linear infinite;
+}
+@keyframes colour {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: hotpink;
+    }
+    100%{
+        background-color: orange;
+    }
+}
+
+.container{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+h3{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+}
